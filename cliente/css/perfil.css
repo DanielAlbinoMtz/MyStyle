@@ -1,0 +1,71 @@
+.header{
+    text-align: center;
+    height: 300px;
+    padding: 12px;
+    background: linear-gradient(90deg,#7A39DB,#6048FF);
+    
+}
+
+.imagen{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.user-name{
+    font-size: 20px;
+    margin-top: 14px;
+    color: #fff;
+}
+
+.social{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.social li{
+    display: inline-block;
+    margin: 5px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+a:hover{
+    color: #de41e4;
+}
+
+.icon{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-size: cover;
+}
+
+.email{
+    background-image: url("../img/mail.png");
+}
+
+.face{
+    background-image: url("../img/facebook.png");
+}
+.twt{
+    background-image: url("../img/twitter.png");
+}
+
+.about{
+    padding: 10px;
+}
+
+.about h3{
+    color: #000;
+    font-size: 16px;
+}
+
+.about p{
+    color: #999;
+    font-size: 14px;
+}
